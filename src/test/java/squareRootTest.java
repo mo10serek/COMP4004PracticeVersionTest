@@ -15,4 +15,10 @@ public class squareRootTest extends TestCase{
         SquareRoot squareRoot = new SquareRoot();
         assertEquals(2.83, squareRoot.caculateRoot(8));
     }
+
+    @Test
+    public void testDoesNotAlowZero() {
+        SquareRoot squareRoot = new SquareRoot();
+        assertEquals(0, squareRoot.caculateRoot(-4));
+    }
 }
