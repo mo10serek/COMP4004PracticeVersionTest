@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e352ef-7170-4dfa-813d-7a3c2316c316" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/squareRootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/squareRootTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SquareRoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     "last_opened_file_path": "C:/Users/mich17/COMP4004 project/Complete Help Package/Complete Help Package/Additional Info Video Package/Comp 4004 Video Files/Comp 4004 Video Files/1-JunitDemo"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.squareRootTest.testReturnValueIfBellowTwoDesimalPoints">
+  <component name="RunManager" selected="JUnit.squareRootTest">
     <configuration name="squareRootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COMP4004PractiveVersionTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.squareRootTest.testReturnValueIfBellowTwoDesimalPoints" />
         <item itemvalue="JUnit.squareRootTest" />
+        <item itemvalue="JUnit.squareRootTest.testReturnValueIfBellowTwoDesimalPoints" />
         <item itemvalue="JUnit.squareRootTest.testReturnCorrectNumber" />
       </list>
     </recent_temporary>

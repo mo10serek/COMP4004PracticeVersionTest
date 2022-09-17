@@ -12,6 +12,9 @@ public class SquareRoot {
             return 0.0;
         }
         double output = Math.sqrt(input);
+        if (output < 0.01) {
+            return output;
+        }
         return (double) Math.round(output * 100) / 100;
     }
 }
