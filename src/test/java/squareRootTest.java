@@ -1,4 +1,4 @@
-
+import junit.runner.Version;
 import junit.framework.TestCase;
 import org.example.SquareRoot;
 import org.junit.Test;
@@ -6,6 +6,7 @@ import org.junit.Test;
 public class squareRootTest extends TestCase{
     @Test
     public void testReturnCorrectNumber() {
+        System.out.println("Junit version is: "+ Version.id());
         SquareRoot squareRoot = new SquareRoot();
         assertEquals(2.0, squareRoot.caculateRoot(4));
     }
