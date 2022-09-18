@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class SquareRoot {
 
-    private static final DecimalFormat df = new DecimalFormat("0.00");
+    private DecimalFormat df = new DecimalFormat("0.00001");
 
     public double caculateRoot(double input) {
         if (input <= 0) {
@@ -14,6 +14,8 @@ public class SquareRoot {
         double output = Math.sqrt(input);
         if (output < 0.01) {
             return output;
+        } else if (Math.round(output) < output) {
+            return Double.parseDouble(df.format(output));
         }
         return (double) Math.round(output * 100) / 100;
     }
