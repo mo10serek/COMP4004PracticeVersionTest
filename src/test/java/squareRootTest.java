@@ -27,4 +27,10 @@ public class squareRootTest extends TestCase{
         SquareRoot squareRoot = new SquareRoot();
         assertEquals(0.0001, squareRoot.caculateRoot(0.00000001));
     }
+
+    @Test
+    public void testReturnValueIfDesimalPointsFarFrom2() {
+        SquareRoot squareRoot = new SquareRoot();
+        assertEquals(6854.00001, squareRoot.caculateRoot(46977316.14));
+    }
 }
